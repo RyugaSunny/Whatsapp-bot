@@ -611,13 +611,6 @@ reply('Success in turning off all antilink in this group')
                 let blockwww = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g, '') + '@s.whatsapp.net'
                 await Maria.groupParticipantsUpdate(m.chat, [blockwww], 'remove').then((res) => reply(json(res))).catch((err) => reply(json(err)))
                 break
-            case 'add':
-                if (!m.isGroup) return reply(mess.group)
-                if (!isAdmins && !isGroupOwner && !isCreator) return reply(mess.admin)
-                if (!isBotAdmins) return reply(mess.botAdmin)
-                let blockwwww = m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g, '') + '@s.whatsapp.net'
-                await Maria.groupParticipantsUpdate(m.chat, [blockwwww], 'add').then((res) => reply(json(res))).catch((err) => reply(json(err)))
-                break
             case 'promote':
                 if (!m.isGroup) return reply(mess.group)
                 if (!isAdmins && !isGroupOwner && !isCreator) return reply(mess.admin)
@@ -1532,7 +1525,6 @@ Here's the list of my Commands.
 │⊳ 🍁 ${prefix}closetime
 │⊳ 🍁 ${prefix}opentime
 │⊳ 🍁 ${prefix}kick
-│⊳ 🍁 ${prefix}add
 │⊳ 🍁 ${prefix}promote
 │⊳ 🍁 ${prefix}demote
 │⊳ 🍁 ${prefix}setdesc
