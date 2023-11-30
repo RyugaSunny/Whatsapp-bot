@@ -20,7 +20,7 @@ global.themeemoji = '🧩'
 global.wm = "Ayush botz inc."
 
 //theme link
-global.link = 'https://chat.whatsapp.com/Jllsl2OaQNoBjepxzuVsZM'
+global.link = 'https://wa.me/+919812699870'
 
 //custom prefix
 global.prefa = ['.']
