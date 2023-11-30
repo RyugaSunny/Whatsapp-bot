@@ -1200,8 +1200,8 @@ case 'chatgpt': case 'gpt':{
         
         let txxt = `👋🏻 Hi *${pushname}*, i am  *A Bot*📍\nA whatsapp bot created by: Sunny \n\nUse command from *${prefix}help* list if you want me to do anything.`
 
-        Maria.sendMessage(m.chat, { video: { url: `https://tenor.com/lvtcuZPoSTQ.gif` }, caption: txxt, gifPlayback: true }, { quoted: m });
-        break
+        Maria.sendMessage(m.chat, { video: { url: `https://media.tenor.com/hCBsJ9URMoAAAAPo/captain-pikachu-pikachu.mp4` }, caption: txxt, gifPlayback: true }, { quoted: m });
+        break   
       case "support":
       
         let tex = `📍My Developer📍\n\n*🎇 Sunny support group:🎇*\n\n*https://wa.me/+919812699870*`
@@ -1211,17 +1211,18 @@ case 'chatgpt': case 'gpt':{
         await Maria.sendMessage(m.chat, { video: { url: `https://i.makeagif.com/media/3-25-2023/NO05ia.mp4` }, caption: 'I sent you the support Link in personal message.\n Pls check.', gifPlayback: true }, { quoted: m });
         break
 
-      case "info":
+        case "info":
             
       
         let ifx = `🌟『Sunny 』🌟
 *🌟Description:* A WhatsApp Bot With Rich  features
 *🚦Uptime:* ${runtime(process.uptime())}
 *🕸Version:* 1.2.0
-*🎐supportgc:* ${global.support}\n
-Maria.sendMessage(m.chat, { video: { url: `https://tenor.com/qb4fyHonfHh.gif` }, caption: ifx, gifPlayback: true }, { quoted: m });
-        break
+*👤Creator:*  Sunny
+*🎐supportgc:* ${global.support}\n`
 
+Maria.sendMessage(m.chat, { video: { url: `https://media.tenor.com/urg-2OawI_EAAAPo/detective-pikachu-returns-detective-pikachu.mp4` }, caption: ifx, gifPlayback: true }, { quoted: m });
+        break
  
       case 'owner': case 'creator': case 'mod': case 'mods': {
       
