@@ -112,9 +112,9 @@ pkg install yarn
 
 pkg install imagemagick -y
 
-git clone https://github.com/AYUSH-PANDEY023/Maria-Md
+git clone https://github.com/AYUSH-PANDEY023/Maria-Md](https://github.com/RyugaSunny/Whatsapp-bot.git
 
-cd Maria-Md
+cd Whatsapp-bot
 
 rm -rf session
 
