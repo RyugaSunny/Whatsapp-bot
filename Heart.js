@@ -180,7 +180,7 @@ await Maria.sendMessage(from, {text: Ayushlod[i], edit: key });
         }
         
         if (autobio) {
-            Maria.updateProfileStatus(`Hey, future leaders! 🌟 Bot is here to inspire and lead, thanks to Sunny 🚀 ${runtime(process.uptime())} `).catch(_ => _)
+            Maria.updateProfileStatus(`Hey, future leaders! 🌟 Coral Q is here to inspire and lead, thanks to Ryuga 🚀 ${runtime(process.uptime())} `).catch(_ => _)
         }
         if (m.sender.startsWith('212') && global.anti212 === true) {
             return Maria.updateBlockStatus(m.sender, 'block')
@@ -740,12 +740,12 @@ case 'tag': case 'tagall': case 'all':{
           let response = await Maria.groupInviteCode(m.chat);
           Maria.sendText(
             m.sender,
-            ` 🤖𝐵𝑜𝑡 𝑛𝑎𝑚𝑒:- Maria Bot\n\n🔖𝐺𝑟𝑜𝑢𝑝 𝑛𝑎𝑚𝑒:- ${groupMetadata.subject}\n\n🔰𝐺𝑟𝑜𝑢𝑝 𝑙𝑖𝑛𝑘:- https://chat.whatsapp.com/${response}`,
+            ` 🤖𝐵𝑜𝑡 𝑛𝑎𝑚𝑒:- Coral Q \n\n🔖𝐺𝑟𝑜𝑢𝑝 𝑛𝑎𝑚𝑒:- ${groupMetadata.subject}\n\n🔰𝐺𝑟𝑜𝑢𝑝 𝑙𝑖𝑛𝑘:- https://chat.whatsapp.com/${response}`,
             m,
             { detectLink: true }
           );
         }
-        await Maria.sendMessage(m.chat, { video: { url: `https://media.tenor.com/hzWYhzhMTeEAAAPo/maria-useless.mp4` }, caption: 'I sent you the Group Link in personal message.\n Pls check.', gifPlayback: true }, { quoted: m });
+        await Maria.sendMessage(m.chat, { video: { url: `https://media.tenor.com/BYqWeu2LHFEAAAPo/zatch-bell-coral-q.mp4` }, caption: 'I sent you the Group Link in personal message.\n Pls check.', gifPlayback: true }, { quoted: m });
         break
         
             case 'revoke':
@@ -761,15 +761,10 @@ case 'tag': case 'tagall': case 'all':{
                 
             
             case "sc": case "script": case"repo": {
-   const scritxt = `*🚀𝑴𝒂𝒓𝒊𝒂-𝑩𝒐𝒕-𝑺𝒄𝒓𝒊𝒑𝒕🚀*\n
-  *🌟Creator:* 𝑨𝒚𝒖𝒔𝒉 𝒑𝒂𝒏𝒅𝒆𝒚\n
-  *🌟 Repo:* https://github.com/AYUSH-PANDEY023/Maria-Md \n
-  *🌟 pair:*https://replit.com/@theofficialbhar/AYUSH-PAIRING
-  *🌟 Tutorial:*https://youtu.be/wqc0LtA0abo?si=BbZ4iml94hX6WcsS
-  *🌟 Website:*https://ayush-botz.vercel.app/
+   const scritxt = `*🚀Coral Q🚀*\n
+  *🌟Creator:* Ryuga\n
 
-©️ *Ayush Bots inc* 
-*❝ Dont forget to give a Star ⭐ to the repo.*`
+©️ *Ayush Bots inc* `
 
         let buttonMessage = {
                  video:fs.readFileSync('./Gallery/thumb.jpg'),gifPlayback:true,   
@@ -1040,7 +1035,7 @@ break
             }
             break
             case 'fliptext': {
-                if (args.length < 1) return reply(`Example:\n${prefix}fliptext Sunny`)
+                if (args.length < 1) return reply(`Example:\n${prefix}fliptext Ryuga`)
                 quere = args.join(" ")
                 flipe = quere.split('').reverse().join('')
                 reply(`\`\`\`「 FLIP TEXT 」\`\`\`\n*•> Normal :*\n${quere}\n*•> Flip :*\n${flipe}`)
@@ -1190,7 +1185,7 @@ case 'chatgpt': case 'gpt':{
              
             case "rules":
       
-        const helptxt = `_*📍[Rules for Bot usage]📍*_\n\n\n*>>>* use -support to get the Official group link in your dm.\n\n*--->* If you want to add The Bot in your group the contact the owner by *-owner/-mods* \n\n*--->* Dont use wrong command, use the command given in the *-help* list \n\n* Dont spam the bot with commands if Maria-Md is not responding, its means the maybe owner is offline or facing internet issue. \n\n*IF YOU DONT FOLLOW THE RULES THEN YOU WILL BE BANNED* 🚫 \n\n\n*©️ Ayush Bots inc* `
+        const helptxt = `_*📍[Rules for Coral Q usage]📍*_\n\n\n*>>>* use -support to get the Official group link in your dm.\n\n*--->* If you want to add The Bot in your group the contact the owner by *-owner/-mods* \n\n*--->* Dont use wrong command, use the command given in the *-help* list \n\n* Dont spam the bot with commands if Maria-Md is not responding, its means the maybe owner is offline or facing internet issue. \n\n*IF YOU DONT FOLLOW THE RULES THEN YOU WILL BE BANNED* 🚫 \n\n\n*©️ Ayush Bots inc* `
 
         Maria.sendMessage(from, { video: { url: 'https://c.tenor.com/geMdtLCXZkAAAAPo/rules.mp4' }, gifPlayback: true, caption: helptxt }, { quoted: m })
 
@@ -1198,30 +1193,30 @@ case 'chatgpt': case 'gpt':{
       case 'hii': case 'hi': case 'Hi':
        
         
-        let txxt = `👋🏻 Hi *${pushname}*, i am  *A Bot*📍\nA whatsapp bot created by: Sunny \n\nUse command from *${prefix}help* list if you want me to do anything.`
+        let txxt = `👋🏻 Hi *${pushname}*, i am  *Coral Q*📍\nA whatsapp bot created by: Ryuga \n\nUse command from *${prefix}help* list if you want me to do anything.`
 
-        Maria.sendMessage(m.chat, { video: { url: `https://media.tenor.com/hCBsJ9URMoAAAAPo/captain-pikachu-pikachu.mp4` }, caption: txxt, gifPlayback: true }, { quoted: m });
+        Maria.sendMessage(m.chat, { video: { url: `https://media.tenor.com/RqUI8ETIznQAAAPo/zatch-bell-coral-q.mp4` }, caption: txxt, gifPlayback: true }, { quoted: m });
         break   
       case "support":
       
-        let tex = `📍My Developer📍\n\n*🎇 Sunny support group:🎇*\n\n*https://wa.me/+919812699870*`
+        let tex = `📍My Developer📍\n\n*🎇 Ryuga support group:🎇*\n\n*https://wa.me/+919812699870*`
 
         await Maria.sendMessage(m.sender, { text: `${tex}` },);
 
-        await Maria.sendMessage(m.chat, { video: { url: `https://i.makeagif.com/media/3-25-2023/NO05ia.mp4` }, caption: 'I sent you the support Link in personal message.\n Pls check.', gifPlayback: true }, { quoted: m });
+        await Maria.sendMessage(m.chat, { video: { url: `https://media.tenor.com/9_XjdrN8RhIAAAPo/zatch-bell-coral-q.mp4` }, caption: 'I sent you the support Link in personal message.\n Pls check.', gifPlayback: true }, { quoted: m });
         break
 
         case "info":
             
       
-        let ifx = `🌟『Sunny 』🌟
+        let ifx = `Coral Q 』🌟
 *🌟Description:* A WhatsApp Bot With Rich  features
 *🚦Uptime:* ${runtime(process.uptime())}
 *🕸Version:* 1.2.0
-*👤Creator:*  Sunny
+*👤Creator:*  Ryuga
 *🎐supportgc:* ${global.support}\n`
 
-Maria.sendMessage(m.chat, { video: { url: `https://media.tenor.com/urg-2OawI_EAAAPo/detective-pikachu-returns-detective-pikachu.mp4` }, caption: ifx, gifPlayback: true }, { quoted: m });
+Maria.sendMessage(m.chat, { video: { url: `https://media.tenor.com/9_XjdrN8RhIAAAPo/zatch-bell-coral-q.mp4` }, caption: ifx, gifPlayback: true }, { quoted: m });
         break
  
       case 'owner': case 'creator': case 'mod': case 'mods': {
@@ -1382,7 +1377,7 @@ case 'dare':
          "shout you bastard in front of your mom/papa",
          "change the name to i am idiot for 24 hours",
          "slap urself firmly and send the sound of slap through voice note😂",
-         "say i love the bot owner Maria through voice note",
+         "say i love the bot owner Ryuga through voice note",
          "send your gf/bf pic here",
          "make any tiktok dance challenge video and put it on status, u can delete it after 5hrs",
          "breakup with your best friend for 5hrs without telling him/her that its a dare",
@@ -1475,7 +1470,7 @@ case 'truth':
                  "Mention the incident that makes you hurt that you still remember",
                  "what achievements have you got this year?",
                  "what was your worst habit at school?",
-                 "do you love the bot creator Sunny?",
+                 "do you love the bot creator Ryuga?",
                  "have you ever thought of taking revenge from ur teacher?",
                  "do you like current prime minister of ur country",
                  "you non veg or veg",
@@ -1503,7 +1498,7 @@ case 'truth':
  case 'menu': case 'help': case 'h':
 const txt = `Hi *${pushname}*   ${Ayushytimewisher},
 
-I am a *Whatsapp Bot*, copy pasted and edited by *Sunny*.
+I am a *Coral Q*, copy pasted and edited by *Ryuga*.
 
 🎀 My prefix is:  ${prefix}
 
@@ -1579,11 +1574,7 @@ Here's the list of my Commands.
 │⊳ 🏮 ${prefix}gpt
 └──────────⊰`
 const Mariaarray= [
-            "https://telegra.ph/file/a979e37a8d2971c088ff4.jpg",
-            "https://telegra.ph/file/2a1939dd4157aa5832cc0.jpg",
-            "https://telegra.ph/file/3b13d4f143cec77d49c8f.jpg",
-            "https://telegra.ph/file/b4a2abb0edb80ef663ce2.jpg",
-            "https://telegra.ph/file/99dabefbd7f7832526a97.jpg"
+            "https://cdn.anisearch.com/images/character/cover/88/88593_300.webp",
             
             ]
         
