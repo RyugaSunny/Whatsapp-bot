@@ -22,7 +22,7 @@ let afk = require("./Gallery/lib/afk");
 const { fetchBuffer, buffergif } = require("./Gallery/lib/myfunc2")
 
 /////log
-global.ownernumber = '919931122319' 
+global.ownernumber = '919812699870' 
 //Gallery/database
 let ntilinkall =JSON.parse(fs.readFileSync('./Gallery/database/antilink.json'))
 let _owner = JSON.parse(fs.readFileSync('./Gallery/database/owner.json'))
@@ -612,23 +612,7 @@ case 'tag': case 'tagall': case 'all':{
           );
         }
         await Maria.sendMessage(m.chat, { video: { url: `https://media.tenor.com/BYqWeu2LHFEAAAPo/zatch-bell-coral-q.mp4` }, caption: 'I sent you the Group Link in personal message.\n Pls check.', gifPlayback: true }, { quoted: m });
-        break          
-            
-            case "sc": case "script": case"repo": {
-   const scritxt = `*🚀Coral Q🚀*\n
-  *🌟Creator:* Ryuga `
-
-        let buttonMessage = {
-                 video:fs.readFileSync('./Gallery/thumb.jpg'),gifPlayback:true,   
-                    caption: scritxt,
-                    
-                    
-                }
-            Maria.sendMessage(m.chat, buttonMessage,{ quoted:m })
-                }
-break
- 
-        
+        break                 
             
 case 'owner': {
 const repf = await Maria.sendMessage(from, { 
@@ -906,7 +890,7 @@ reply(`Number ${bnnd} Has Become An owner!!!`)
 break
 case 'delowner':
                 if (!isCreator) return reply(mess.owner)
-if (!args[0]) return reply(`Use ${prefix+command} nomor\nExample ${prefix+command} 919931122319`)
+if (!args[0]) return reply(`Use ${prefix+command} nomor\nExample ${prefix+command} 919812699870`)
 ya = q.split("|")[0].replace(/[^0-9]/g, '')
 unp = owner.indexOf(ya)
 owner.splice(unp, 1)
@@ -1068,7 +1052,7 @@ case 'chatgpt': case 'gpt':{
 *👤Creator:*  Ryuga
 *🎐supportgc:* ${global.support}\n`
 
-Maria.sendMessage(m.chat, { video: { url: `https://media.tenor.com/9_XjdrN8RhIAAAPo/zatch-bell-coral-q.mp4` }, caption: ifx, gifPlayback: true }, { quoted: m });
+Maria.sendMessage(m.chat, { video: { url: `https://media.tenor.com/BYqWeu2LHFEAAAPo/zatch-bell-coral-q.mp4` }, caption: ifx, gifPlayback: true }, { quoted: m });
         break
  
       case 'owner': case 'creator': case 'mod': case 'mods': {
@@ -1172,7 +1156,6 @@ Here's the list of my Commands.
 │⊳ 🌿 ${prefix}rules
 │⊳ 🌿 ${prefix}help
 │⊳ 🌿 ${prefix}runtime
-│⊳ 🌿 ${prefix}script
 └──────────⊰
 
 ┌──⊰ _*👮🏻‍♂️GROUP👮🏻‍♂️*_
