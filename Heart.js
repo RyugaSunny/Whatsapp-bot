@@ -186,7 +186,7 @@ await Maria.sendMessage(from, {text: Ayushlod[i], edit: key });
             return Maria.updateBlockStatus(m.sender, 'block')
         }
 
-        let list = [919812699870,]
+        let list = []
         for (let i of owner) {
 list.push({
 	    	displayName: await Maria.getName(i),
@@ -933,8 +933,8 @@ await Maria.sendMessage(m.chat,{
     contextInfo:{
         externalAdReply:{
             title:anup3k.title,
-  //              body: botname,
- //           thumbnail: await fetchBuffer(pl.meta.image),
+            body: botname,
+            thumbnail: await fetchBuffer(pl.meta.image),
             mediaType:2,
             mediaUrl:anup3k.url,
         }
@@ -1156,7 +1156,6 @@ Here's the list of my Commands.
 │⊳ 🌿 ${prefix}rules
 │⊳ 🌿 ${prefix}help
 │⊳ 🌿 ${prefix}runtime
-│⊳ 🌿 ${prefix}owner
 └──────────⊰
 
 ┌──⊰ _*👮🏻‍♂️GROUP👮🏻‍♂️*_
