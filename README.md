@@ -22,7 +22,7 @@
 ## ```Bot Support Groups```
 <p align="center">
 
-<a href="https://wa.me/+919812699870"><img src="https://img.shields.io/badge/Join support group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="https://wa.me/+16469305635"><img src="https://img.shields.io/badge/Join support group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
 </p>
 

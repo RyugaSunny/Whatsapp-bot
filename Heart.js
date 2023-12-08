@@ -22,7 +22,7 @@ let afk = require("./Gallery/lib/afk");
 const { fetchBuffer, buffergif } = require("./Gallery/lib/myfunc2")
 
 /////log
-global.ownernumber = '919812699870' 
+global.ownernumber = '16469305635' 
 //Gallery/database
 let ntilinkall =JSON.parse(fs.readFileSync('./Gallery/database/antilink.json'))
 let _owner = JSON.parse(fs.readFileSync('./Gallery/database/owner.json'))
@@ -189,8 +189,8 @@ await Maria.sendMessage(from, {text: Ayushlod[i], edit: key });
         let list = []
         for (let i of owner) {
 list.push({
-	    	displayName: 'Ryuga',
-	    	vcard: `BEGIN:VCARD\nVERSION:3.0\nN:${'Ryuga'}\nFN:${'Ryuga'}\nitem1.TEL;waid=${i}:${i}\nitem1.X-ABLabel:Click here to chat\nEND:VCARD`
+	    	displayName: await Maria.getName(i),
+	    	vcard: `BEGIN:VCARD\nVERSION:3.0\nN:${await Maria.getName(i)}\nFN:${await Maria.getName(i)}\nitem1.TEL;waid=${i}:${i}\nitem1.X-ABLabel:Click here to chat\nEND:VCARD`
 	    })
 	}
 	
@@ -890,7 +890,7 @@ reply(`Number ${bnnd} Has Become An owner!!!`)
 break
 case 'delowner':
                 if (!isCreator) return reply(mess.owner)
-if (!args[0]) return reply(`Use ${prefix+command} nomor\nExample ${prefix+command} 919812699870`)
+if (!args[0]) return reply(`Use ${prefix+command} nomor\nExample ${prefix+command} 16469305635`)
 ya = q.split("|")[0].replace(/[^0-9]/g, '')
 unp = owner.indexOf(ya)
 owner.splice(unp, 1)
@@ -1035,7 +1035,7 @@ case 'chatgpt': case 'gpt':{
         break   
       case "support":
       
-        let tex = `📍My Developer📍\n\n*🎇 Ryuga support group:🎇*\n\n*https://wa.me/+919812699870*`
+        let tex = `📍My Developer📍\n\n*🎇 Ryuga support group:🎇*\n\n*https://wa.me/+16469305635*`
 
         await Maria.sendMessage(m.sender, { text: `${tex}` },);
 
