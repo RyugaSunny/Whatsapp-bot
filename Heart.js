@@ -190,7 +190,7 @@ await Maria.sendMessage(from, {text: Ayushlod[i], edit: key });
         for (let i of owner) {
 list.push({
 	    	displayName: await Maria.getName(i),
-	    	vcard: `BEGIN:VCARD\nVERSION:3.0\nN:${await Maria.getName(i)}\nFN:${await Maria.getName(i)}\nitem1.TEL;waid=${i}:${i}\nitem1.X-ABLabel:Click here to chat\nitem2.EMAIL;type=INTERNET:${ytname}\nitem2.X-ABLabel:YouTube\nitem3.URL:${socialm}\nitem3.X-ABLabel:GitHub\nitem4.ADR:;;${location};;;;\nitem4.X-ABLabel:Region\nEND:VCARD`
+	    	vcard: `BEGIN:VCARD\nVERSION:3.0\nN:${await Maria.getName(i)}\nFN:${await Maria.getName(i)}\nitem1.TEL;waid=${i}:${i}\nitem1.X-ABLabel:Click here to chat\nEND:VCARD`
 	    })
 	}
 	
@@ -1049,8 +1049,7 @@ case 'chatgpt': case 'gpt':{
 *🌟Description:* A WhatsApp Bot With Rich  features
 *🚦Uptime:* ${runtime(process.uptime())}
 *🕸Version:* 1.2.0
-*👤Creator:*  Ryuga
-*🎐supportgc:* ${global.support}\n`
+*👤Creator:*  Ryuga`
 
 Maria.sendMessage(m.chat, { video: { url: `https://media.tenor.com/BYqWeu2LHFEAAAPo/zatch-bell-coral-q.mp4` }, caption: ifx, gifPlayback: true }, { quoted: m });
         break
