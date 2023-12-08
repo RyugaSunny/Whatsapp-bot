@@ -1,8 +1,8 @@
-<a href="https://ibb.co/pQNpmwN"><img src="[https://i.ibb.co/xYwQ4Lw/cheemspic.jpg](https://cdn.anime-planet.com/characters/primary/coral-q-1-190x266.jpg?t=1625994295)" alt="Maria-Md" border="0"></a>
-<h1 align="center">⭐Maria-Md⭐<br></h1>
+<a href="https://ibb.co/pQNpmwN"><img src="[https://i.ibb.co/xYwQ4Lw/cheemspic.jpg](https://cdn.anime-planet.com/characters/primary/coral-q-1-190x266.jpg?t=1625994295)" alt="Coral Q" border="0"></a>
+<h1 align="center">⭐Coral Q⭐<br></h1>
 
 <p align="center"> 
-  Konochiwa Senpai, I am "Maria md " a WhatsApp bot made by Ayush to do everything that is possible on WhatsApp based on WhatsApp Multi Device(MD) Support.
+  YO, I am "Coral Q " a WhatsApp bot made by Ayush to do everything that is possible on WhatsApp based on WhatsApp Multi Device(MD) Support.
 </p>
 </br>
 
@@ -26,40 +26,6 @@
 
 </p>
 
-
-# Setup For Deployment 👇
-
-- FORK THE REPOSITORY [Here](https://github.com/AYUSH-PANDEY023/Maria-Md/fork)
-
-
-## ` Pair with WhatsApp`
-<h2 align="left">  <a href="https://replit.com/@theofficialbhar/AYUSH-PAIRING"><img src="https://repl.it/badge/github/quiec/whatsasena" />
-</a>
-</h2>
-
-## 
-- After you getting the `creds.json. ` then upload the `creds.json` in the `./Gallery/session` folder. then you can deploy on your favourite platform.
-
-
-   
-
-
-
-<a href="https://heroku.com/deploy?template=https://github.com/AYUSH-PANDEY023/Maria-Md">
-    <img src="https://www.herokucdn.com/deploy/button.png" width="160px" alt="Deploy on Heroku" >
-    </a>
-
-<br>
-<br>
-<a href="https://railway.app/new"><img src="https://railway.app/button.svg" />
-<br>
-<br>
-  <a href="https://github.com/codespaces/new"><img title="A17 on Gitub Codespace" src="https://img.shields.io/badge/DEPLOY CODESPACE-h?color=black&style=for-the-badge&logo=visualstudiocode" />
-</a>
-  <br>
-<br>
-  <a href="https://studio.mogenius.com/studio/cloud-space/cloud-space-overview"><img title="A17 on Mogenius" src="https://img.shields.io/badge/DEPLOY MOGENIUS-h?color=blue&style=for-the-badge&logo=genius"></a>
-</a>
 
 # Install Manually 👇
 
