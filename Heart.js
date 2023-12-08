@@ -189,8 +189,8 @@ await Maria.sendMessage(from, {text: Ayushlod[i], edit: key });
         let list = []
         for (let i of owner) {
 list.push({
-	    	displayName: await Maria.getName(i),
-	    	vcard: `BEGIN:VCARD\nVERSION:3.0\nN:${await Maria.getName(i)}\nFN:${await Maria.getName(i)}\nitem1.TEL;waid=${i}:${i}\nitem1.X-ABLabel:Click here to chat\nEND:VCARD`
+	    	displayName: 'Ryuga',
+	    	vcard: `BEGIN:VCARD\nVERSION:3.0\nN:${'Ryuga'}\nFN:${'Ryuga'}\nitem1.TEL;waid=${i}:${i}\nitem1.X-ABLabel:Click here to chat\nEND:VCARD`
 	    })
 	}
 	
